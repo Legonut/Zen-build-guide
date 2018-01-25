@@ -22,7 +22,7 @@ If you are just building one half, you don't need a TRRS jack or cable.
 
 ## SMD Soldering
 
-![Here's a good video](https://www.youtube.com/watch?v=_DsCdOaRUPM&feature=youtu.be)
+[Here's a good video](https://www.youtube.com/watch?v=_DsCdOaRUPM&feature=youtu.be)
 
 Let's start with the middle plate. This is the smallest one with the rectangular holes in it.
 
