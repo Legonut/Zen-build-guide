@@ -1,27 +1,5 @@
 # Assembly
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
-- [Parts](#parts)
-- [SMD Soldering](#SMD-Soldering)
-- [Mount the TRRS Jack](#mount-the-trrs-jack)
-- [Connect Jumpers](#connect-jumpers)
-- [I2C Resistors and Jumpers](#i2c-resistors-and-jumpers)
-  - [Mount the resistors](#mount-the-resistors)
-  - [Connect the I2C Jumpers](#connect-the-i2c-jumpers)
-- [Mount Header Pins](#mount-header-pins)
-- [Mount the Pro Micro](#mount-the-pro-micro)
-  - [Mount the 2 switches under the Pro Micro](#mount-the-2-switches-under-the-pro-micro)
-  - [Mount the Pro Micro the Right Way](#mount-the-pro-micro-the-right-way)
-- [Mount the rest of the switches](#mount-the-rest-of-the-switches)
-- [Assemble the case](#assemble-the-case)
-- [Finishing touches](#finishing-touches)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
 ## Parts
 
 If you are just building one half, you don't need a TRRS jack or cable.
