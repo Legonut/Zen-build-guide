@@ -1,11 +1,20 @@
 # Assembly
 
+A few important notes before we begin.
+ - This is a soldered, sandwich-case design. Unlike other sandwich designs with screws and standoffs, you cannot disassemble this keyboard. Flash the pro micros and check each swich socket with a paperclip before you solder the switches in. Check that the RGB layer works by putting the PCB in place and pushing the RGB pins to the side. If you are done and one of your diodes is in the wrong direction or a pad on an LED wasn't soldered, you can't go back.
+ - When using the keyboard, be careful to not remove or connect the TRRS cable while the board is plugged in. The RGB LEDs are sensitive, and there isn't really a way to avoid having the contacts within the 3.5mm connector brush against the plug.
+ - The RGB LEDs pull a lot of power. So much so, that if you set the color to white by reducing saturation, the voltage to the right arduino will drop too low and it will fail. If this happens, simply unplug the USB, then the right half, and set the saturation back up with the left half only. If you really want white backlighting, you will need to set the brightness down.
+ 
+
 ## Parts
 
 If you are just building one half, you don't need a TRRS jack or cable.
 
 **Included in the kit**
 - [ ] Set of PCBs. Top, middle, and bottom are standard. Bases are extra.
+
+![](https://i.imgur.com/7u5cPOM.png)
+
 - [ ] **2** TRRS jacks ([CP-43514-ND](https://www.digikey.com/product-detail/en/cui-inc/SJ-43514/CP-43514-ND/368146))
 - [ ] **62** 1N4148w diodes
 - [ ] **32** 100NF 0805 capacitors
@@ -13,29 +22,44 @@ If you are just building one half, you don't need a TRRS jack or cable.
 
 
 **Not included in the kit**
-- [ ] **2** 5V/16MHz Pro Micros with pins ([official](https://www.sparkfun.com/products/12640) or [clone](https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_nkw=Arduino+Micro+Pro+ATmega32U4+5V&rt=nc&LH_BIN=1))
-- [ ] **4** [2u PCB-mount stabilizers](https://1upkeyboards.com/clear-cherry-pcb-mount-stabilizers.html)
+- [ ] **2** 5V/16MHz Pro Micros with pins ([official](https://www.sparkfun.com/products/12640) or [clone](https://smile.amazon.com/s/ref=nb_sb_ss_i_2_10?url=search-alias%3Daps&field-keywords=pro+micro+arduino&sprefix=pro+micro+%2Caps%2C352&crid=3CHDJYMGX12DJ))
+- [ ] **4** [2u PCB-mount stabilizers](https://1upkeyboards.com/clear-cherry-pcb-mount-stabilizers.html) Transparent stabilizers work best. The case does not support plate-mount stabs.
 - [ ] **62** Switches. The PCB is alps-compatible but the top plate is not. For best RGB effects, get switches with transparent housings like Zealios, Cherry RGB, or Outemu ice.
 - [ ] [TRRS cable](https://www.amazon.com/gp/product/B019TRW4HQ/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
-- [ ] [Bumper feet or rubber sheet of your choice](https://www.amazon.com/gp/product/B01HJ64HHO/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1)
+- [ ] [Bumper feet  of your choice](https://www.amazon.com/gp/product/B01HJ64HHO/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1) or [rubber sheet (12"x12"](https://www.mcmaster.com/#1374n21/=1b9bcs9)
 
 
-## SMD Soldering
 
-[Here's a good video](https://www.youtube.com/watch?v=_DsCdOaRUPM&feature=youtu.be)
 
-Let's start with the middle plate. This is the smallest one with the rectangular holes in it.
+## Middle PCB
+
+[**Watch this video**](https://www.youtube.com/watch?v=_DsCdOaRUPM&feature=youtu.be)
+
+Let's start with the middle plate. This is the smallest one with the rectangular holes in it. This PCB will hold the diodes, pro micro, trrs jack, and eventually, the switches.
 
 ![](https://i.imgur.com/vCnyORq.jpg)
 
-The diodes need to be soldered to the top side of the PCB, the same as the Pro Micro and TRRS Jack.
+The diodes need to be soldered to the top side of the PCB, the same as the Pro Micro and TRRS Jack. There is a set of lines around each of the diode pads. The diodes will be soldered so that the line on the diode connects with the lines at the bottom, like shown in the second image below. The diodes' marking is very light, so be careful which direction they are going.
 
 ![](https://i.imgur.com/1fvQm33.jpg)
 ![](https://i.imgur.com/v3tLdsz.png)
 
-First, solder half of the pads. Then place the diodes, double check the direction, and 
+First, put some solder on half the pads. You don't need that much, the "bubble" of solder should be smaller than a half sphere. If it looks like more than a half sphere, you've used too much. Check the image below for a good idea of how much solder should be there. 
 
-**Double check your work**. Black lines should be facing the square pad.
+![](https://i.imgur.com/fcO9RJa.jpg)
+
+Then, using the same method as the video above, heat the solder and place the diode in using the tweezers. You can push down on the diode with the tweezers and reheat the solder to make sure the diode lays flat on the PCB. Then, solder the other pad and you're done.
+
+Next, we're going to attach the Pro Micro. Unlike other split builds (Lets_Split, Nyquist, Iris), the pro micro and TRRS jack are mounted to the top of the PCB. On the left side, the components of the Pro Micro are "up" and sits flush with the main PCB. On the right side, the components are "down" and the spacers included on the pins are used. There's some text on the PCB to remind you. You can solder the pins to the board or the pro micro first, whatever you prefer. On the left side, once everything is soldered, you can cut the plastic part with flush cutters into smaller sections and remove it. Then trim the pins on both sides, like shown below. Save 2 of the cut pins.
+
+![](https://i.imgur.com/NIzh2oF.jpg)
+![](https://i.imgur.com/5sPN8j5.jpg)
+
+Next, using the two pins, connect the jumpers as shown below, following the indicator lines. You can use the same SMD soldering technique.
+
+![](https://i.imgur.com/4cbS4Tu.jpg?1)
+
+Finally, solder 
 
 > *Tip:* **Lightly** tack each diode in from the top. This will keep them snug against the surface once we flip it over and do the real soldering from the bottom. You only need a tiny amount of solder here and you should still be able to see through the hole.
 
