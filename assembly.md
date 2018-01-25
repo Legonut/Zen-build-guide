@@ -24,18 +24,16 @@ If you are just building one half, you don't need a TRRS jack or cable.
 
 ![Here's a good video](https://www.youtube.com/watch?v=_DsCdOaRUPM&feature=youtu.be)
 
-You'll want to determine the orientation of your boards right now. Remember, they're symmetrical, but you can set it up to have your TRRS jacks on the inside or on the same side (right or left). For this build we'll be mounting our TRRS jacks on the inside, closest to one another.
+Let's start with the middle plate. This is the smallest one with the rectangular holes in it.
 
-- The **left PCB** will have the **TRRS jack on the right**
-- The **right PCB** will have the **TRRS jack on the left**
+![](https://i.imgur.com/vCnyORq.jpg)
 
-This orientation will determine the top of your PCB. Insert the diodes on the top. Once mounted they will fit between the PCB and the plate.
+The diodes need to be soldered to the top side of the PCB, the same as the Pro Micro and TRRS Jack.
 
-> *Tip:* Although it doesn't actually matter which side you mount the diodes on so long as they're in the correct orientation, there are several factors that may influence which side you choose. If you have a 3mm acrylic plate, it is desirable to mount them on the top side to help reinforce the gap and prevent the switches from rising up with the PCB. If you have a 5mm acrylic plate, it is mandatory to mount them on the bottom side for the plate to fit. If it is left up to choice, it can be beneficial to mount them on the bottom side to allow for future desoldering replacement should there be some type of failure. For this build we'll put them on top.
+![](https://i.imgur.com/1fvQm33.jpg)
+![](https://i.imgur.com/v3tLdsz.png)
 
-Use a helping hand tool to hold the PCB above your work surface.
-
-Use a small book binding or small pair of pliers to gently make a 90 degree bend on each side of the diode. It might take a few tries to get right, but you'll get the hang of it soon. They should drop easily into the 2 holes.
+First, solder half of the pads. Then place the diodes, double check the direction, and 
 
 **Double check your work**. Black lines should be facing the square pad.
 
