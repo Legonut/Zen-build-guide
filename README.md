@@ -2,7 +2,7 @@
 
 This is a work in progress build guide for the Zen keyboard. 
 
-![](https://imgur.com/z3v0Aks)
+![](https://i.imgur.com/z3v0Aks.jpg)
 
 # Contents
 

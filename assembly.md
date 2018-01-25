@@ -22,9 +22,7 @@ If you are just building one half, you don't need a TRRS jack or cable.
 
 ## SMD Soldering
 
-Diodes allow current to flow in one direction only. Mount the diodes with the black line facing the square pad.
-
-![]()
+![Here's a good video](https://www.youtube.com/watch?v=_DsCdOaRUPM&feature=youtu.be)
 
 You'll want to determine the orientation of your boards right now. Remember, they're symmetrical, but you can set it up to have your TRRS jacks on the inside or on the same side (right or left). For this build we'll be mounting our TRRS jacks on the inside, closest to one another.
 
