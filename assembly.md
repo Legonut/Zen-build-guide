@@ -95,19 +95,8 @@ Once the switches are all soldered in, put the bottom plate over with the LEDs s
 
 ## Connect Jumpers
 
-On the **underside** of the PCB, right below the TRRS jack, you'll see two sets of 3 pads labelled VCC and GND. Jumper them like this:
-
 ```
 VCC [x]     [ ] VCC
     [x]     [x]
 GND [ ]     [x] GND
 ```
-
-Do both PCBs the same.
-
-![](http://i.imgur.com/eLRUJxA.jpg)
-
-## I2C Resistors and Jumpers
-
-*Optional if you plan to use I2C.*
-
