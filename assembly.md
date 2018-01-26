@@ -19,6 +19,7 @@ If you are just building one half, you don't need a TRRS jack or cable.
 - [ ] **62** 1N4148w diodes
 - [ ] **32** 100NF 0805 capacitors
 - [ ] **32** SK6812 or WS2812b RGB LEDs
+- [ ] **14** 3x1 Pin connectors. The kit includes **2** 40x1 rows, break them into 3x1 sections.
 
 
 **Not included in the kit**
@@ -27,7 +28,6 @@ If you are just building one half, you don't need a TRRS jack or cable.
 - [ ] **62** Switches. The PCB is alps-compatible but the top plate is not. For best RGB effects, get switches with transparent housings like Zealios, Cherry RGB, or Outemu ice.
 - [ ] [TRRS cable](https://www.amazon.com/gp/product/B019TRW4HQ/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
 - [ ] [Bumper feet  of your choice](https://www.amazon.com/gp/product/B01HJ64HHO/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1) or [rubber sheet (12"x12"](https://www.mcmaster.com/#1374n21/=1b9bcs9)
-
 
 
 
@@ -50,7 +50,11 @@ First, put some solder on half the pads. You don't need that much, the "bubble" 
 
 Then, using the same method as the video above, heat the solder and place the diode in using the tweezers. You can push down on the diode with the tweezers and reheat the solder to make sure the diode lays flat on the PCB. Then, solder the other pad and you're done.
 
-Next, we're going to attach the Pro Micro. Unlike other split builds (Lets_Split, Nyquist, Iris), the pro micro and TRRS jack are mounted to the top of the PCB. On the left side, the components of the Pro Micro are "up" and sits flush with the main PCB. On the right side, the components are "down" and the spacers included on the pins are used. There's some text on the PCB to remind you. You can solder the pins to the board or the pro micro first, whatever you prefer. On the left side, once everything is soldered, you can cut the plastic part with flush cutters into smaller sections and remove it. Then trim the pins on both sides, like shown below. Save 2 of the cut pins.
+Next, we're going to attach the Pro Micro. Unlike other split builds (Lets_Split, Nyquist, Iris), the pro micro and TRRS jack are mounted to the top of the PCB. On the left side, the components of the Pro Micro are "up" and sits flush with the main PCB. On the right side, the components are "down" and the spacers included on the pins are used. There's some text on the PCB to remind you. You can solder the pins to the board or the pro micro first, whatever you prefer.
+
+> *Tip:* Don't use too much solder, or the bottom plate won't fit on. Heat the pin with the soldering iron and touch the solder wire to the base of the pin.
+
+On the left side, once everything is soldered, you can cut the plastic part of the pin connectors with flush cutters into smaller sections and remove it. Then trim the pins on both sides, like shown below. Save 2 of the cut pins.
 
 ![](https://i.imgur.com/NIzh2oF.jpg)
 ![](https://i.imgur.com/5sPN8j5.jpg)
@@ -59,23 +63,25 @@ Next, using the two pins, connect the jumpers as shown below, following the indi
 
 ![](https://i.imgur.com/4cbS4Tu.jpg?1)
 
-Finally, solder the 3.5mm TRRS jack onto the same side as the Pro Micro.
+Finally, solder the 3.5mm TRRS jack onto the same side as the Pro Micro. 
 
 ## Bottom PCB
 
-The bottom PCB is used for the RGB LEDs and capacitors. Using the same method as the diodes, solder the capacitors and LEDs onto the PCB. Capacitor direction doesn't matter, but the LED's corner mark must line up with the one printed on the board. All of the LEDs are in the same direction.
+![](https://i.imgur.com/3Diajqw.jpg)
+
+The bottom PCB is used for the RGB LEDs and capacitors. Using the same method as the diodes, solder the capacitors and LEDs onto the PCB. Capacitor direction doesn't matter, but the LED's corner mark must line up with the one printed on the board. All of the LEDs are oriented in the same direction.
 
 ![](https://i.imgur.com/8W6Q0b7.jpg)
 
- once we flip it over and do the real soldering from the bottom. You only need a tiny amount of solder here and you should still be able to see through the hole.
+## Testing
 
-Flip your PCB over and solder the diodes then snip the excess leads.
+Now is a good time to test both boards before we solder the switches on. Skip ahead to flashing and program the board. You can test the keys by jumping the contacts with the tweezers or a paperclip. Then, place the bottom plate under the middle plate and use a 3x1 pin connector to "jump" the contacts closest to the TRRS jack. If the lights don't flash on, you either need to jump the key to turn them on, or check your solder pads for the LEDs. **Do not move onto the next step until you've verified that the switch contacts and LEDs work.**
 
-## Mount the TRRS Jack
+## Solder the pins and switches.
 
-Mount the TRRS jack on the side opposite from your diodes. It should be on the bottom.
+Install the 3x1 pins into the middle plate. If you have a bottom plate, make sure the longer legs are facing down. The R1.1 will only have a solder pad on the middle, so just solder the center pin for now.
 
-> *Tip:* Use masking tape or a spare finger to hold it in place while you solder it. Tack a couple pins and make sure it's snug against the board, then do the rest.
+Next, place the switches into the top plate in the layout you want. The top plate supports 1u and 1.5u switch positions. Install your 2u stabiliers. Check that all the pins on the switches are straight and secure the top to the middle PCB. You will have to use some force to push the switches all the way into the PCB. Then
 
 ## Connect Jumpers
 
