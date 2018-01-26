@@ -59,9 +59,15 @@ Next, using the two pins, connect the jumpers as shown below, following the indi
 
 ![](https://i.imgur.com/4cbS4Tu.jpg?1)
 
-Finally, solder 
+Finally, solder the 3.5mm TRRS jack onto the same side as the Pro Micro.
 
-> *Tip:* **Lightly** tack each diode in from the top. This will keep them snug against the surface once we flip it over and do the real soldering from the bottom. You only need a tiny amount of solder here and you should still be able to see through the hole.
+## Bottom PCB
+
+The bottom PCB is used for the RGB LEDs and capacitors. Using the same method as the diodes, solder the capacitors and LEDs onto the PCB. Capacitor direction doesn't matter, but the LED's corner mark must line up with the one printed on the board. All of the LEDs are in the same direction.
+
+![](https://i.imgur.com/8W6Q0b7.jpg)
+
+ once we flip it over and do the real soldering from the bottom. You only need a tiny amount of solder here and you should still be able to see through the hole.
 
 Flip your PCB over and solder the diodes then snip the excess leads.
 
