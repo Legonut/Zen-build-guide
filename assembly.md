@@ -4,6 +4,7 @@ A few important notes before we begin.
  - This is a soldered, sandwich-case design. Unlike other sandwich designs with screws and standoffs, you cannot disassemble this keyboard. Flash the pro micros and check each swich socket with a paperclip before you solder the switches in. Check that the RGB layer works by putting the PCB in place and pushing the RGB pins to the side. If you are done and one of your diodes is in the wrong direction or a pad on an LED wasn't soldered, you can't go back.
  - When using the keyboard, be careful to not remove or connect the TRRS cable while the board is plugged in. The RGB LEDs are sensitive, and there isn't really a way to avoid having the contacts within the 3.5mm connector brush against the plug.
  - The RGB LEDs pull a lot of power. So much so, that if you set the color to white by reducing saturation, the voltage to the right arduino will drop too low and it will fail. If this happens, simply unplug the USB, then the right half, and set the saturation back up with the left half only. If you really want white backlighting, you will need to set the brightness down.
+ - [**Watch this video**](https://www.youtube.com/watch?v=_DsCdOaRUPM&feature=youtu.be)
  
 
 ## Parts
@@ -29,11 +30,16 @@ If you are just building one half, you don't need a TRRS jack or cable.
 - [ ] [TRRS cable](https://www.amazon.com/gp/product/B019TRW4HQ/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
 - [ ] [Bumper feet  of your choice](https://www.amazon.com/gp/product/B01HJ64HHO/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1) or [rubber sheet (12"x12"](https://www.mcmaster.com/#1374n21/=1b9bcs9)
 
+## Build overview
 
+ 1. Solder Diodes, Pro Micro, and TRRS jack to the middle plate
+ 2. Solder LEDs and capacitors to bottom plate
+ 3. Program pro micros and test both boards
+ 4. Solder top plate, switches, pins, and middle plate together
+ 5. Finish soldering with the bottom and optional base plates
 
 ## Middle PCB
 
-[**Watch this video**](https://www.youtube.com/watch?v=_DsCdOaRUPM&feature=youtu.be)
 
 Let's start with the middle plate. This is the smallest one with the rectangular holes in it. This PCB will hold the diodes, pro micro, trrs jack, and eventually, the switches.
 
@@ -92,11 +98,3 @@ Once the switches are all soldered in, put the bottom plate over with the LEDs s
 ![](https://i.imgur.com/yWuU0Hx.jpg)
 
 ----------------------------------------------------------------------------------------------------
-
-## Connect Jumpers
-
-```
-VCC [x]     [ ] VCC
-    [x]     [x]
-GND [ ]     [x] GND
-```
