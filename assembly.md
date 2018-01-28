@@ -84,8 +84,10 @@ The bottom PCB is used for the RGB LEDs and capacitors. Using the same method as
 Now is a good time to test both boards before we solder the switches on. Skip ahead to flashing and program the board. You can test the keys by jumping the contacts with the tweezers or a paperclip. Then, place the bottom plate under the middle plate and use a 3x1 pin connector to "jump" the contacts closest to the TRRS jack. If the lights don't flash on, you either need to jump the key to turn them on, or check your solder pads for the LEDs. **Do not move onto the next step until you've verified that the switch contacts and LEDs work.**
 
 ## Solder the pins and switches
-
-Install the 3x1 pins into the middle plate. If you have an extra bottom plate, make sure the longer legs are facing down. The R1.1 will only have a solder pad on the middle, so just solder the center pin for now. For the 3 pins closest to the 3.5mm jack, solder all of the contacts. Then trim the tops of the pins.
+```
+If you have an extra bottom plate, make sure the longer legs are facing down.
+```
+Install the 3x1 pins into the middle plate. The R1.1 will only have a solder pad on the middle, so just solder the center pin for now. For the 3 pins closest to the 3.5mm jack, solder all of the contacts. Then trim the tops of the pins.
 
 ![](https://i.imgur.com/ocXjHjr.jpg)
 
