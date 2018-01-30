@@ -91,7 +91,11 @@ Install the 3x1 pins into the middle plate. The R1.1 will only have a solder pad
 
 ![](https://i.imgur.com/ocXjHjr.jpg)
 
-Next, place the switches into the top plate in the layout you want. The top plate supports 1u and 1.5u switch positions. Install your 2u stabiliers. Check that all the pins on the switches are straight and secure the top to the middle PCB. You will have to use some force to push the switches all the way into the PCB. Then, once all the switches are pushed down all the way, you can solder the switches in.
+Next, place the switches into the top plate in the layout you want. The top plate supports 1u and 1.5u switch positions. Install your 2u stabiliers.
+```
+Don't forget the stabilizers before you solder in the switches!
+```
+Check that all the pins on the switches are straight and secure the top to the middle PCB. You will have to use some force to push the switches all the way into the PCB. Then, once all the switches are pushed down all the way, you can solder the switches in.
 
 ## Final assembly
 
