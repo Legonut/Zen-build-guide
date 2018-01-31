@@ -38,7 +38,7 @@ If you are just building one half, you don't need a TRRS jack or cable.
  4. Solder top plate, switches, pins, and middle plate together
  5. Finish soldering with the bottom and optional base plates
 
-![](https://giant.gfycat.com/MindlessChillyHypacrosaurus.webm)
+![**Here's an animation of the stackup](https://giant.gfycat.com/MindlessChillyHypacrosaurus.webm)
 
 ## Middle PCB
 
