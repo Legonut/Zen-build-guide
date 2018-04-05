@@ -1,11 +1,7 @@
 # Zen Keyboard Build Guide
 
-This is a work in progress build guide for the Zen keyboard. 
+# This build guide has moved to https://legonut.gitbooks.io/zen-keyboard/content/
 
 ![](https://i.imgur.com/z3v0Aks.jpg)
 
 # Contents
-
-* Introduction _\(this page\)_
-* [Assembly](assembly.md)
-* [Flashing](flashing.md)
